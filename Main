@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class Main{
+  
+  ArrayList<ArrayList<String>> list = new ArrayList<ArrayList<String>>(); 
+
+  public static void main(String[] args){
+    Main m = new Main();
+    m.init();
+  }
+
+  public void init(){
+    list.add(new ArrayList<String>());
+    list[0].add("Hello");
+    System.out.println(list[0][0]);
+  }
+
+
+}
